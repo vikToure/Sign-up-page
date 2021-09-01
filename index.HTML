@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="CSS/style.CSS" />
+</head>
+
+<body>
+    <section id="auth-layout">
+
+        <!--Form section starts here-->
+        <div class="form-section">
+            <div class="logo-section">
+                <img src="img/kodeLogo.png" alt="kodeCamp logo">
+            </div>
+            <div class="form-box">
+                <h1>Sign Up</h1><br>
+
+                <div class="form-row">
+                    <div class="input-box">
+                        <label> First Name </label><br>
+                        <input type="text">
+                    </div>
+                    <div class="input-box">
+                        <label> Last Name </label><br>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-box">
+                        <label> Email </label><br>
+                        <input type="email" required>
+                    </div>
+                    <div class="input-box">
+                        <label> Gender </label><br>
+                        <div class="radio-buttons">
+                            <input type="radio" id="male" name="gender" value="Male" checked>
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="Male">
+                            <label for="female">Female</label>
+                            <input type="radio" id="other" name="gender" value="Male">
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-box">
+                        <label> Password </label><br>
+                        <input type="password" required>
+                    </div>
+                    <div class="input-box">
+                        <label> Confirm Password </label><br>
+                        <input type="password" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-box">
+                        <label> Educational Level </label><br>
+                        <select property="voucherCategoryClass">
+                            <option selected> &nbsp; </option>
+                            <option> Secondary School </option>
+                            <option> Undergraduate </option>
+                            <option> Postgraduate </option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <label> Experience Level </label><br>
+                        <select>
+                            <option selected> &nbsp; </option>
+                            <option> &lt; 1 year</option>
+                            <option> 1 - 2 years</option>
+                            <option> &gt; 3 years</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="textarea-section">
+                        <label> Tell us about you</label><br>
+                        <textarea maxlength="150"></textarea>
+                    </div>
+                </div>
+                <div class="button-section">
+                    <button> Create Account </button>
+                </div>
+            </div>
+        </div>
+
+        <!--Image section starts here-->
+        <div class="image-section">
+            <h1>KodeCamp</h1>
+        </div>
+    </section>
+</body>
+
+</html>
